@@ -65,6 +65,7 @@ typedef NS_ENUM(NSInteger, WeiboSDKResponseStatusCode)
  */
 + (void)openWeiboApp:(void(^_Nullable)(BOOL success))complection;
 
+
 /**
  获取微博客户端程序的itunes安装地址
  @return 微博客户端程序的itunes安装地址
